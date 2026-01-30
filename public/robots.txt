@@ -1,0 +1,7 @@
+# robots.txt for Queen Care Melbourne
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+
+Sitemap: https://queencare.com.au/sitemap.xml

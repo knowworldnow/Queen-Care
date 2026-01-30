@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://queencare.com.au/</loc>
+    <lastmod>2026-01-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://queencare.com.au/Full Body Massage.png</image:loc>
+      <image:title>Professional Male Massage Therapist - Full Body Massage Melbourne</image:title>
+      <image:caption>Experienced male therapist providing full body massage services for female clients in Melbourne</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://queencare.com.au/Neck Massage.png</image:loc>
+      <image:title>Neck and Shoulder Massage Therapy Melbourne</image:title>
+      <image:caption>Professional neck and shoulder massage therapy by male therapist in Melbourne</image:caption>
+    </image:image>
+  </url>
+</urlset>
