@@ -44,8 +44,9 @@ export const metadata: Metadata = {
     description: 'Professional male massage therapist. Mobile spa service across Melbourne. 8 years experience, 24/7 availability.',
     images: ['/Full Body Massage.png'],
   },
-  verification: {
-    google: 'your-google-verification-code',
+  other: {
+    'mobile-web-app-capable': 'yes',
+    'apple-mobile-web-app-title': 'Queen Care',
   },
 }
 

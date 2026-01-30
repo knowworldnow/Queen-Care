@@ -73,9 +73,10 @@ export default function Home() {
             </div>
             <div className="hidden md:flex gap-8">
               <a href="#about" className="text-gray-700 hover:text-rose-600 transition font-medium">About</a>
-              <a href="#services" className="text-gray-700 hover:text-rose-600 transition font-medium">Services</a>
-              <a href="#reviews" className="text-gray-700 hover:text-rose-600 transition font-medium">Reviews</a>
-              <a href="#contact" className="text-gray-700 hover:text-rose-600 transition font-medium">Contact</a>
+              <a href="#services" className="text-gray-700 hover:text-emerald-600 transition font-medium">Services</a>
+              <a href="#reviews" className="text-gray-700 hover:text-emerald-600 transition font-medium">Reviews</a>
+              <a href="#faq" className="text-gray-700 hover:text-emerald-600 transition font-medium">FAQ</a>
+              <a href="#contact" className="text-gray-700 hover:text-emerald-600 transition font-medium">Contact</a>
             </div>
           </div>
         </nav>
@@ -146,10 +147,10 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <div className="inline-block bg-emerald-100 text-emerald-800 px-6 py-2 rounded-full font-semibold mb-4">
-              Why Choose Queen Care
+              🌟 Why Choose Queen Care
             </div>
             <h2 className="text-5xl md:text-6xl font-bold text-gray-800 mb-4">Professional Male Therapist</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">Specializing in therapeutic massage for female clients with 8 years of trusted expertise</p>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">Specializing in therapeutic massage for female clients with 8 years of trusted expertise. Your comfort, privacy, and satisfaction are my top priorities.</p>
             <div className="w-24 h-1 bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-500 mx-auto rounded-full mt-6"></div>
           </div>
           <div className="max-w-6xl mx-auto">
@@ -221,9 +222,12 @@ export default function Home() {
       <section id="services" className="py-24 bg-gradient-to-b from-white via-rose-50/30 to-purple-50/30">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold text-gray-800 mb-4">Our Signature Services</h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-rose-500 to-purple-500 mx-auto rounded-full mb-4"></div>
-            <p className="text-center text-gray-600 text-xl">Luxury massage therapy in the comfort of your home</p>
+            <div className="inline-block bg-emerald-100 text-emerald-800 px-6 py-2 rounded-full font-semibold mb-4">
+              💆‍♀️ Premium Services
+            </div>
+            <h2 className="text-5xl md:text-6xl font-bold text-gray-800 mb-4">Our Signature Services</h2>
+            <div className="w-24 h-1 bg-gradient-to-r from-emerald-500 to-teal-500 mx-auto rounded-full mb-4"></div>
+            <p className="text-center text-gray-600 text-xl">Luxury mobile massage therapy across Melbourne</p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -296,12 +300,16 @@ export default function Home() {
 
             {/* Head Massage */}
             <div className="group bg-white rounded-3xl shadow-2xl overflow-hidden transform hover:scale-105 hover:rotate-1 transition-all duration-500 border-2 border-amber-100 hover:border-amber-400">
-              <div className="relative h-80 bg-gradient-to-br from-amber-100 via-orange-100 to-yellow-100 flex items-center justify-center overflow-hidden">
-                <div className="absolute inset-0 opacity-30">
-                  <div className="absolute top-10 left-10 w-40 h-40 bg-amber-300 rounded-full blur-3xl animate-pulse"></div>
-                  <div className="absolute bottom-10 right-10 w-40 h-40 bg-orange-300 rounded-full blur-3xl animate-pulse delay-75"></div>
-                </div>
-                <div className="text-9xl group-hover:scale-125 transition-transform duration-500 relative z-10 drop-shadow-lg">💆‍♀️</div>
+              <div className="relative h-80 overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-t from-amber-900/80 via-amber-600/40 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <Image 
+                  src="/Head & Scalp Massage.png" 
+                  alt="Head and Scalp Massage - Professional relaxation therapy"
+                  width={800}
+                  height={800}
+                  style={{ objectFit: 'cover', width: '100%', height: '100%' }}
+                  className="group-hover:scale-110 transition-transform duration-500"
+                />
               </div>
               <div className="p-8">
                 <h3 className="text-3xl font-bold text-gray-800 mb-3 group-hover:text-amber-600 transition">Head & Scalp Massage</h3>
@@ -361,11 +369,11 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <div className="inline-block bg-amber-100 text-amber-800 px-6 py-2 rounded-full font-semibold mb-4">
-              Real Reviews • Real Results
+              ⭐ Real Reviews • Real Results
             </div>
             <h2 className="text-5xl md:text-6xl font-bold text-gray-800 mb-4">What Clients Say</h2>
             <div className="w-24 h-1 bg-gradient-to-r from-emerald-500 to-teal-500 mx-auto rounded-full mb-4"></div>
-            <p className="text-gray-600 text-xl">Join hundreds of satisfied female clients across Melbourne</p>
+            <p className="text-gray-600 text-xl leading-relaxed">Join hundreds of satisfied female clients across Melbourne who trust Queen Care</p>
           </div>
           
           <div className="max-w-5xl mx-auto">
@@ -433,11 +441,11 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <div className="inline-block bg-emerald-100 text-emerald-800 px-6 py-2 rounded-full font-semibold mb-4">
-              Easy Booking • Quick Response
+              📱 Easy Booking • Quick Response
             </div>
             <h2 className="text-5xl md:text-6xl font-bold text-gray-800 mb-4">Book Your Session Today</h2>
             <div className="w-24 h-1 bg-gradient-to-r from-emerald-500 to-teal-500 mx-auto rounded-full mb-4"></div>
-            <p className="text-gray-600 text-xl">Experience professional massage therapy at your convenience</p>
+            <p className="text-gray-600 text-xl leading-relaxed">Experience professional massage therapy at your convenience. Same-day bookings available!</p>
           </div>
           
           <div className="max-w-5xl mx-auto">
@@ -500,14 +508,15 @@ export default function Home() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-24 bg-white">
+      <section id="faq" className="py-24 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <div className="inline-block bg-emerald-100 text-emerald-800 px-6 py-2 rounded-full font-semibold mb-4">
-              Have Questions?
+              ❓ Have Questions?
             </div>
             <h2 className="text-5xl md:text-6xl font-bold text-gray-800 mb-4">Frequently Asked Questions</h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-emerald-500 to-teal-500 mx-auto rounded-full"></div>
+            <div className="w-24 h-1 bg-gradient-to-r from-emerald-500 to-teal-500 mx-auto rounded-full mb-4"></div>
+            <p className="text-gray-600 text-xl">Everything you need to know about Queen Care services</p>
           </div>
 
           <div className="max-w-4xl mx-auto space-y-6">

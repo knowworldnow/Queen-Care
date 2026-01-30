@@ -10,6 +10,7 @@ export default function Head() {
         "description": "Professional male massage therapist specializing in therapeutic massage for female clients across Melbourne",
         "url": "https://queencare.com.au",
         "telephone": "+442045770347",
+        "email": "contact@queencare.com.au",
         "priceRange": "$50-$100",
         "image": "https://queencare.com.au/Full Body Massage.png",
         "address": {
