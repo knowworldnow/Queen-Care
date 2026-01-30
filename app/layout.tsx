@@ -20,14 +20,14 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://queencare.com.au',
+    canonical: 'https://queen-care.vercel.app',
   },
   openGraph: {
     title: 'Male Therapist Melbourne | Full Body Massage for Women | Queen Care',
     description: 'Professional male massage therapist with 8 years experience. Mobile spa service across Melbourne - Richmond, South Yarra, St Kilda & more. 24/7 availability, complete privacy for female clients.',
     type: 'website',
     locale: 'en_AU',
-    url: 'https://queencare.com.au',
+    url: 'https://queen-care.vercel.app',
     siteName: 'Queen Care Melbourne',
     images: [
       {

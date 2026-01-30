@@ -64,19 +64,19 @@ export default function Home() {
       <header className="bg-white/95 backdrop-blur-sm shadow-lg sticky top-0 z-50 border-b border-rose-100">
         <nav className="container mx-auto px-6 py-5">
           <div className="flex justify-between items-center">
-            <div className="flex items-center gap-3">
+            <a href="https://queen-care.vercel.app/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
               <div className="text-4xl">👑</div>
               <div>
                 <h1 className="text-3xl font-bold bg-gradient-to-r from-rose-500 to-purple-600 bg-clip-text text-transparent">Queen Care</h1>
                 <p className="text-xs text-gray-500 mt-0.5">Melbourne's Premier Mobile Spa</p>
               </div>
-            </div>
-            <div className="hidden md:flex gap-8">
-              <a href="#about" className="text-gray-700 hover:text-rose-600 transition font-medium">About</a>
-              <a href="#services" className="text-gray-700 hover:text-emerald-600 transition font-medium">Services</a>
-              <a href="#reviews" className="text-gray-700 hover:text-emerald-600 transition font-medium">Reviews</a>
-              <a href="#faq" className="text-gray-700 hover:text-emerald-600 transition font-medium">FAQ</a>
-              <a href="#contact" className="text-gray-700 hover:text-emerald-600 transition font-medium">Contact</a>
+            </a>
+            <div className="hidden md:flex gap-8 items-center">
+              <a href="https://queen-care.vercel.app/#about" className="text-gray-700 hover:text-emerald-600 transition font-medium">About</a>
+              <a href="https://queen-care.vercel.app/#services" className="text-gray-700 hover:text-emerald-600 transition font-medium">Services</a>
+              <a href="https://queen-care.vercel.app/#reviews" className="text-gray-700 hover:text-emerald-600 transition font-medium">Reviews</a>
+              <a href="https://queen-care.vercel.app/#faq" className="text-gray-700 hover:text-emerald-600 transition font-medium">FAQ</a>
+              <a href="https://queen-care.vercel.app/#contact" className="text-gray-700 hover:text-emerald-600 transition font-medium">Contact</a>
             </div>
           </div>
         </nav>

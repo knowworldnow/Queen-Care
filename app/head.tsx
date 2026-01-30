@@ -4,15 +4,15 @@ export default function Head() {
     "@graph": [
       {
         "@type": "LocalBusiness",
-        "@id": "https://queencare.com.au/#business",
+        "@id": "https://queen-care.vercel.app/#business",
         "name": "Queen Care Melbourne",
         "alternateName": "Queen Care Mobile Spa",
         "description": "Professional male massage therapist specializing in therapeutic massage for female clients across Melbourne",
-        "url": "https://queencare.com.au",
+        "url": "https://queen-care.vercel.app",
         "telephone": "+442045770347",
         "email": "contact@queencare.com.au",
         "priceRange": "$50-$100",
-        "image": "https://queencare.com.au/Full Body Massage.png",
+        "image": "https://queen-care.vercel.app/Full Body Massage.png",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Melbourne",
@@ -64,10 +64,10 @@ export default function Head() {
       },
       {
         "@type": "Service",
-        "@id": "https://queencare.com.au/#service",
+        "@id": "https://queen-care.vercel.app/#service",
         "serviceType": "Mobile Massage Therapy",
         "provider": {
-          "@id": "https://queencare.com.au/#business"
+          "@id": "https://queen-care.vercel.app/#business"
         },
         "areaServed": {
           "@type": "State",
